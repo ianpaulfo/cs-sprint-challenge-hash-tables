@@ -2,12 +2,12 @@ def has_negatives(a):
     """
     YOUR CODE HERE
     """
-    # Traverse through given numbers and increase the count at the absolute value in the hash table
     storage, result = dict(), []
     
     
     # for each element of array
     for n in a:
+        # hash and add to hash table
         storage[n] =  a
         # find the negative value of numbers[n] 
         diff = 0 - n

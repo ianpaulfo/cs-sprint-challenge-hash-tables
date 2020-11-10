@@ -25,7 +25,5 @@ def get_indices_of_item_weights(weights: list, length: int, limit: int) -> list:
             return [i, value]
         diff = limit - weight
         hashTable[diff] = i
-    # if such a pair doesn't exist, return an empty array
-
 
     return None
